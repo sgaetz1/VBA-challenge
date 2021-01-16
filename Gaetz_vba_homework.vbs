@@ -138,7 +138,7 @@ Sub Stock_market_bonus()
         
         Next i
         
-        'put greatest increase/decrease in table
+        'put greatest increase/decrease in table, autofit all new columns
         ws.Range("P2").Value = ticker
         ws.Range("P3").Value = ticker2
         ws.Range("P4").Value = Greatest_stock
